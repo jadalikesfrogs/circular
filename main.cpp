@@ -18,7 +18,7 @@ int main() {
 }
 
 double circ(double r) {
-	double pi = 3.1416;
+	double pi = 3.1;
 	return (2 * pi * r);
 }
 
@@ -28,6 +28,6 @@ double area(double r) {
 }
 
 double vol(double r) {
-	double pi = 3.1416;
-	return (4.0 / 3.0 * r * r * r);
+	double pi = 3.14159268;
+	return (4.0 / 3.0 * r * r * r * pi);
 } 
