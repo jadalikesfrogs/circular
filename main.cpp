@@ -16,7 +16,7 @@ int main() {
 
 	return 0;
 }
-
+// using scope you can reuse the same variable names (ex: pi)
 double circ(double r) {
 	double pi = 3.1;
 	return (2 * pi * r);
