@@ -17,6 +17,7 @@ int main() {
 	cout << "Volume: " << vol(r) << endl;
 	// brand new "i" for purpose of the loop 
 	// after it's done using i, goess back to what it was before aka 5.
+	//variables are redined inside of this block.
 	int i = 5;
 	cout << "Block block i = " << i << endl;
 	for (int i = 1; i < 10; i++) {
