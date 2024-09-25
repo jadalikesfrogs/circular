@@ -15,7 +15,8 @@ int main() {
 	cout << "Circumference? " << circ(r) << endl;
 	cout << "Area: " << area(r) << endl;
 	cout << "Volume: " << vol(r) << endl;
-
+	// brand new "i" for purpose of the loop 
+	// after it's done using i, goess back to what it was before aka 5.
 	int i = 5;
 	cout << "Block block i = " << i << endl;
 	for (int i = 1; i < 10; i++) {
