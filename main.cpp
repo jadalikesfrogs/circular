@@ -16,6 +16,13 @@ int main() {
 	cout << "Area: " << area(r) << endl;
 	cout << "Volume: " << vol(r) << endl;
 
+	int i = 5;
+	cout << "Block block i = " << i << endl;
+	for (int i = 1; i < 10; i++) {
+		cout << "In block i = " << i << endl;
+	}
+	cout << "After block i = " << i << endl;
+
 	return 0;
 }
 // using scope you can reuse the same variable names (ex: pi)
