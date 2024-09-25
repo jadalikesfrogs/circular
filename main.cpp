@@ -4,7 +4,9 @@ using namespace std;
 double circ(double r);
 double area(double r);
 double vol(double r);
-
+//this is a global constant, the value of this cannot be changed 
+// use all caps for constants
+const double PI = 3.14159;
 int main() {
 	double r = 0.0;
 	cout << "Radius? ";
@@ -18,16 +20,16 @@ int main() {
 }
 // using scope you can reuse the same variable names (ex: pi)
 double circ(double r) {
-	double pi = 3.1;
-	return (2 * pi * r);
+	
+	return (2 * PI * r);
 }
 
 double area(double r) {
-	double pi = 3.1416;
-	return (pi * r * r);
+	
+	return (PI * r * r);
 }
 
 double vol(double r) {
-	double pi = 3.14159268;
-	return (4.0 / 3.0 * r * r * r * pi);
+	
+	return (4.0 / 3.0 * r * r * r * PI);
 } 
