@@ -30,6 +30,7 @@ double area(double r) {
 }
 
 double vol(double r) {
-	
+	// you can overwrite global constants
+	double PI = 3.1;
 	return (4.0 / 3.0 * r * r * r * PI);
 } 
