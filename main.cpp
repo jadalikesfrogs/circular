@@ -30,4 +30,4 @@ double area(double r) {
 double vol(double r) {
 	double pi = 3.1416;
 	return (4.0 / 3.0 * r * r * r);
-}
+} 
